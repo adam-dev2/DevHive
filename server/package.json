@@ -10,5 +10,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.0",
+    "web-push": "^3.6.7"
+  }
 }
