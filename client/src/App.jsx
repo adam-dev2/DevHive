@@ -1,16 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <>
-      <motion.div className="px-12 h-screen w-screen bg-zinc-100 ">
-        <nav className='py-6.5 bg-opacity-30 backdrop-blur-lg border-b border-gray-200 w-full flex justify-between items-center px-5 text-black rounded-3xl shadow-2xl relative top-10'>
-          <h1 className="font-bold text-2xl">Task Manager</h1>
-        </nav>
-      </motion.div>
-    </>
-  )
-}
+    <motion.div className="min-h-screen w-full bg-[#0A0B10] py-10 sm:px-8 md:px-20">
+      <Navbar />
+      <Hero />
+    </motion.div>
+  );
+};
 
-export default App
+export default App;
